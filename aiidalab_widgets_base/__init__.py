@@ -35,6 +35,7 @@ from .structures import (
     StructureManagerWidget,
     StructureUploadWidget,
 )
+from .version import __version__
 from .viewers import AiidaNodeViewWidget, register_viewer_widget, viewer
 from .wizard import WizardAppWidget, WizardAppWidgetStep
 
@@ -77,6 +78,5 @@ __all__ = [
     "WizardAppWidgetStep",
     "register_viewer_widget",
     "viewer",
+    "__version__",
 ]
-
-__version__ = "1.2.0"
